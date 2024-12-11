@@ -1,0 +1,257 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #cdc4c4;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-box {
+    background-color: #ffd700;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    width: 80px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ffd700;
+  }
+  
+  main {
+    padding: 40px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  
+  .text-section {
+    width: 45%;
+  }
+  
+  .text-section .highlight {
+    color: #ffd700;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .text-section h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  
+  .text-section p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .text-section button {
+    background-color: #ffd700;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .text-section button:hover {
+    background-color: #e0c400;
+  }
+
+  
+  
+.table {
+    background: #fff;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  table th, table td {
+    padding: 10px;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .table-header {
+    font-weight: bold;
+    text-align: left;
+    border-bottom: none;
+  }
+  
+  .date {
+    text-align: right;
+    font-weight: bold;
+    border-bottom: none;
+  }
+  
+  .pay-to, .customer {
+    vertical-align: top;
+    padding: 10px;
+  }
+  
+  .tax-label, .grand-total-label {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .tax-value, .grand-total-value {
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer {
+    background-color: #fdeb32;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .contact-info {
+    max-width: 50%;
+  }
+  
+  .contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #000;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    color: #000;
+  }
+  
+  .contact-info a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+  }
+  
+  .contact-info a:hover {
+    color: #333;
+  }
+  
+
+  
+  .social-icons a {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .contact-form {
+    max-width: 40%;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input, 
+  .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+    font-size: 16px;
+  }
+  
+  .contact-form input:focus, 
+  .contact-form textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #333;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  
+  .contact-form button:hover {
+    background-color: #333;
+  }
+  
